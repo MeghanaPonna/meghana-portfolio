@@ -34,19 +34,19 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           className="flex gap-6 text-sm"
         >
-          <a href="#about" className="hover:text-blue-400 transition">
+          <a href="/about" className="hover:text-blue-400 transition">
             About
           </a>
 
-          <a href="#projects" className="hover:text-blue-400 transition">
+          <a href="/projects" className="hover:text-blue-400 transition">
             Projects
           </a>
 
-          <a href="#skills" className="hover:text-blue-400 transition">
+          <a href="/skills" className="hover:text-blue-400 transition">
             Skills
           </a>
 
-          <a href="#contact" className="hover:text-blue-400 transition">
+          <a href="/#contact" className="hover:text-blue-400 transition">
             Contact
           </a>
         </motion.div>
