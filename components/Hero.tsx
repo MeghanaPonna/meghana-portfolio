@@ -433,7 +433,7 @@ export default function Hero() {
           >
 
             <a
-              href="#projects"
+              href="/projects"
               className="px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition font-medium shadow-lg"
             >
               View Projects
