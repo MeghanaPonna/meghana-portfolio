@@ -1,0 +1,121 @@
+"use client"
+
+import { motion } from "framer-motion"
+
+export default function About() {
+  return (
+    <section id="about" className="py-28 bg-gray-950 text-white">
+
+      <div className="max-w-6xl mx-auto px-6">
+
+        <motion.h2
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-4xl font-bold text-center mb-16"
+        >
+          About Me
+        </motion.h2>
+
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+
+          {/* Left side text */}
+
+          {/* <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+
+            <p className="text-gray-300 leading-relaxed mb-6">
+              I am a Software Engineering student and Full Stack Developer passionate about building scalable web applications and solving real-world problems through technology. I specialize in the MERN stack (MongoDB, Express, React, Node.js) and enjoy developing complete systems from backend architecture to user-facing interfaces.
+            </p>
+
+            <p className="text-gray-300 leading-relaxed mb-6">
+              I have built several full-stack applications including a movie ticket booking platform, a food delivery system with Stripe payments, and a secure authentication system with OTP-based login and JWT authentication.
+            </p>
+
+            <p className="text-gray-300 leading-relaxed mb-6">
+             I am also interested in the intersection of Machine Learning and Full Stack Development, where data-driven insights can improve user experience and business decisions. My recent project on OTT churn prediction using XGBoost demonstrates how machine learning can help platforms retain users through predictive analytics.
+            </p>
+
+            <p className="text-gray-300 leading-relaxed mb-6">
+                I enjoy designing systems that combine strong backend architecture with intuitive user experiences, building reliable and scalable products that create real impact for users.
+            </p>
+
+          </motion.div> */}
+
+
+          <motion.div
+  initial={{ opacity: 0, x: -40 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.6 }}
+  className="bg-gray-900/70 backdrop-blur-md p-8 rounded-2xl border border-gray-800 shadow-lg"
+>
+
+  <p className="text-gray-300 leading-relaxed mb-6 text-lg">
+    I am a <span className="text-blue-400 font-semibold">Software Engineering student</span> and 
+    <span className="text-blue-400 font-semibold"> Full Stack Developer</span> passionate about building scalable web applications and solving real-world problems through technology. 
+    I specialize in the <span className="text-blue-400 font-semibold">MERN stack (MongoDB, Express, React, Node.js)</span> and enjoy developing complete systems from backend architecture to user-facing interfaces.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed mb-6 text-lg">
+    I have built several full-stack applications including a 
+    <span className="text-blue-400"> movie ticket booking platform</span>, 
+    a <span className="text-blue-400"> food delivery system with Stripe payments</span>, 
+    and a <span className="text-blue-400"> secure authentication system with OTP-based login and JWT authentication</span>.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed mb-6 text-lg">
+    I am also interested in the intersection of 
+    <span className="text-blue-400 font-semibold"> Machine Learning</span> and 
+    <span className="text-blue-400 font-semibold"> Full Stack Development</span>, 
+    where data-driven insights can improve user experience and business decisions. 
+    My recent project on 
+    <span className="text-blue-400"> OTT churn prediction using XGBoost</span> 
+    demonstrates how machine learning can help platforms retain users through predictive analytics.
+  </p>
+
+  <p className="text-gray-300 leading-relaxed text-lg">
+    I enjoy designing systems that combine strong backend architecture with intuitive user experiences, building reliable and scalable products that create real impact for users.
+  </p>
+
+</motion.div>
+          {/* Right side stats */}
+
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            className="grid grid-cols-2 gap-6"
+          >
+
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
+              <h3 className="text-3xl font-bold text-blue-400">4+</h3>
+              <p className="text-gray-400 mt-2">Projects Built</p>
+            </div>
+
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
+              <h3 className="text-3xl font-bold text-blue-400">10+</h3>
+              <p className="text-gray-400 mt-2">Technologies</p>
+            </div>
+
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
+              <h3 className="text-3xl font-bold text-blue-400">2+</h3>
+              <p className="text-gray-400 mt-2">Full Stack Apps</p>
+            </div>
+
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
+              <h3 className="text-3xl font-bold text-blue-400">1</h3>
+              <p className="text-gray-400 mt-2">ML Project</p>
+            </div>
+
+          </motion.div>
+
+        </div>
+
+      </div>
+
+    </section>
+  )
+}
