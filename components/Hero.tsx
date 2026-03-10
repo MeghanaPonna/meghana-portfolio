@@ -388,7 +388,9 @@ const item = {
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center bg-gradient-to-b from-gray-950 to-black text-white px-6">
+    // <section className="min-h-screen flex items-center bg-gradient-to-b from-gray-950 to-black text-white px-6">
+
+    <section className="min-h-[100dvh] flex items-center bg-gradient-to-b from-gray-950 to-black text-white px-6">
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
