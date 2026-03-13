@@ -53,7 +53,7 @@ export default function About() {
   className="bg-gray-900/70 backdrop-blur-md p-8 rounded-2xl border border-gray-800 shadow-lg"
 >
 
-  <p className="text-gray-300 leading-relaxed mb-6 text-lg">
+  {/* <p className="text-gray-300 leading-relaxed mb-6 text-lg">
     I am a <span className="text-blue-400 font-semibold">Software Engineering student</span> and 
     <span className="text-blue-400 font-semibold"> Full Stack Developer</span> passionate about building scalable web applications and solving real-world problems through technology. 
     I specialize in the <span className="text-blue-400 font-semibold">MERN stack (MongoDB, Express, React, Node.js)</span> and enjoy developing complete systems from backend architecture to user-facing interfaces.
@@ -78,7 +78,39 @@ export default function About() {
 
   <p className="text-gray-300 leading-relaxed text-lg">
     I enjoy designing systems that combine strong backend architecture with intuitive user experiences, building reliable and scalable products that create real impact for users.
-  </p>
+  </p> */}
+
+  <p className="text-gray-300 leading-relaxed mb-6 text-lg">
+  I am a <span className="text-blue-400 font-semibold">Computer Science student</span> and 
+  <span className="text-blue-400 font-semibold"> Full Stack Developer</span> focused on building scalable and reliable web applications. 
+  My core expertise lies in the 
+  <span className="text-blue-400 font-semibold"> MERN stack (MongoDB, Express, React, Node.js)</span>, 
+  where I design and develop complete systems from backend APIs and database architecture to responsive user interfaces.
+</p>
+
+<p className="text-gray-300 leading-relaxed mb-6 text-lg">
+  I have developed multiple real-world projects including a 
+  <span className="text-blue-400"> movie ticket booking platform with seat management</span>, 
+  a <span className="text-blue-400"> food delivery application with Stripe payment integration</span>, 
+  and a <span className="text-blue-400"> secure authentication system implementing email verification, OTP-based login, and JWT authentication</span>. 
+  Through these projects, I gained experience building scalable backend services, handling authentication and payments, and designing clean user experiences.
+</p>
+
+<p className="text-gray-300 leading-relaxed mb-6 text-lg">
+  I am also interested in combining 
+  <span className="text-blue-400 font-semibold"> Machine Learning</span> with 
+  <span className="text-blue-400 font-semibold"> Full Stack Development</span> to create intelligent applications. 
+  My recent work includes an 
+  <span className="text-blue-400"> OTT churn prediction system using XGBoost</span> 
+  and an 
+  <span className="text-blue-400"> AI-based spam detection system built with TensorFlow</span>, 
+  demonstrating how data-driven insights can improve user engagement and decision making.
+</p>
+
+<p className="text-gray-300 leading-relaxed text-lg">
+  I enjoy solving complex problems, designing scalable architectures, and continuously learning new technologies. 
+  My goal is to contribute to impactful products at technology-driven companies while growing as a software engineer who builds efficient, reliable, and user-focused systems.
+</p>
 
 </motion.div>
           {/* Right side stats */}
@@ -91,7 +123,7 @@ export default function About() {
           >
 
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
-              <h3 className="text-3xl font-bold text-blue-400">4+</h3>
+              <h3 className="text-3xl font-bold text-blue-400">5+</h3>
               <p className="text-gray-400 mt-2">Projects Built</p>
             </div>
 
@@ -106,7 +138,7 @@ export default function About() {
             </div>
 
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-800 text-center">
-              <h3 className="text-3xl font-bold text-blue-400">1</h3>
+              <h3 className="text-3xl font-bold text-blue-400">2+</h3>
               <p className="text-gray-400 mt-2">ML Project</p>
             </div>
 
