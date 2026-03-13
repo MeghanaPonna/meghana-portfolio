@@ -34,7 +34,15 @@ description:
 tech: "React • Node.js • FastAPI • MongoDB • Python • XGBoost",
 github: "#",
 live: "#"
-}
+},
+{
+  title: "AI Spam Detection System",
+  description:
+"A machine learning web application that classifies SMS messages as spam or not spam using Natural Language Processing and a TensorFlow-based neural network model. The system includes text preprocessing, tokenization, and a Streamlit interface for real-time message prediction with confidence scores.",
+  tech: "Python • TensorFlow • NLP • Streamlit • Scikit-learn",
+  github: "https://github.com/MeghanaPonna/spam-detection-system",
+  live: "#"
+},
 
 ]
 
