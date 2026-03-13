@@ -452,6 +452,21 @@ export default function Hero() {
             to build intelligent applications.
           </motion.p>
 
+          <div className="mt-8 flex flex-wrap gap-3">
+            <span className="px-4 py-2 bg-gray-800 text-blue-400 rounded-full text-sm">
+              MERN Stack
+            </span>
+            <span className="px-4 py-2 bg-gray-800 text-blue-400 rounded-full text-sm">
+              Backend Systems
+            </span>
+            <span className="px-4 py-2 bg-gray-800 text-blue-400 rounded-full text-sm">
+              Authentication & Security
+            </span>
+            <span className="px-4 py-2 bg-gray-800 text-blue-400 rounded-full text-sm">
+              Machine Learning
+            </span>
+          </div>
+
           {/* Buttons */}
 
           <motion.div
