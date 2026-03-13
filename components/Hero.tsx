@@ -403,7 +403,7 @@ export default function Hero() {
           className="flex flex-col"
         >
 
-          <motion.h1
+          {/* <motion.h1
             variants={item}
             className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight"
           >
@@ -425,6 +425,31 @@ export default function Hero() {
             I build scalable web applications using the MERN stack,
             focusing on clean backend architecture, secure authentication
             systems, and real-world problem solving.
+          </motion.p> */}
+
+          <motion.h1
+            variants={item}
+            className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight"
+          >
+            Hi, I'm
+            <span className="text-blue-500"> Meghana Ponna</span>
+          </motion.h1>
+
+          <motion.p
+            variants={item}
+            className="mt-6 text-lg md:text-xl text-gray-300"
+          >
+            Full Stack Developer • ML Enthusiast • Problem Solver
+          </motion.p>
+
+          <motion.p
+            variants={item}
+            className="mt-6 max-w-xl text-gray-400 text-base md:text-lg leading-relaxed"
+          >
+            I build scalable web applications using the MERN stack and enjoy solving
+            real-world problems through technology. I am passionate about backend
+            architecture, secure authentication systems, and exploring machine learning
+            to build intelligent applications.
           </motion.p>
 
           {/* Buttons */}
