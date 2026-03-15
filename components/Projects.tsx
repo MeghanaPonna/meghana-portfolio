@@ -9,7 +9,7 @@ const projects = [
 "A scalable movie ticket booking application built with the MERN stack that enables users to browse movies, select seats, and complete secure bookings. Features include JWT-based authentication, dynamic seat selection, protected routes, and automated booking confirmation via email notifications.",
     tech: "React • Node.js • Express • MongoDB • JWT • Nodemailer • Stripe",
     github: "https://github.com/MeghanaPonna/CineBook",
-    live: "#"
+    live: "https://cinebook-zeta.vercel.app/"
   },
   {
     title: "Food Delivery Platform",
@@ -43,6 +43,15 @@ live: "#"
   github: "https://github.com/MeghanaPonna/spam-detection-system",
   live: "#"
 },
+{
+  title: "AI Patient Readmission Prediction System",
+  description:
+    "An end-to-end Machine Learning + Full Stack application that predicts whether a hospital patient will be readmitted within 30 days after discharge using clinical data. The system analyzes patient health records using an XGBoost model and provides real-time risk predictions through a FastAPI backend and an interactive React dashboard.",
+  tech: "Python • XGBoost • FastAPI • React • Pandas • Scikit-learn • Machine Learning",
+  github: "https://github.com/MeghanaPonna/ai-readmission-system",
+  live: "https://ai-readmission-system.vercel.app/"
+},
+
 
 ]
 
