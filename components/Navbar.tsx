@@ -321,6 +321,7 @@ export default function Navbar() {
     { name: "About", path: "/about" },
     { name: "Projects", path: "/projects" },
     { name: "Skills", path: "/skills" },
+    { name: "Profiles", path: "/coding-profiles" },
   ]
 
   return (
@@ -337,7 +338,8 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
 
-        <div className="hidden md:flex gap-8 text-sm font-medium relative">
+        {/* <div className="hidden md:flex gap-8 text-sm font-medium relative"> */}
+        <div className="hidden lg:flex gap-6 text-sm font-medium relative items-center">
 
           {navLinks.map((link) => {
 

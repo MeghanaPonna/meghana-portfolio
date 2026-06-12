@@ -482,7 +482,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/23211A12D2-P.Meghana.pdf"
+              href="/23211A12D2_P.Meghana.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border border-gray-500 rounded-lg hover:bg-blue-600 hover:text-white transition font-medium"

@@ -32,7 +32,7 @@ title: "OTT Churn Prediction System",
 description:
 "A full-stack machine learning platform that predicts OTT customer churn using XGBoost with SMOTE-balanced data. Includes an admin analytics dashboard, churn risk classification, retention offer management, and movie browsing via TMDB API.",
 tech: "React • Node.js • FastAPI • MongoDB • Python • XGBoost",
-github: "#",
+github: "https://github.com/MeghanaPonna/mern-churn-miniProject",
 live: "#"
 },
 {
